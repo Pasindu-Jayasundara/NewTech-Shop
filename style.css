@@ -1,0 +1,460 @@
+@font-face {
+    font-family: "poppin";
+    src: url("fonts/Poppins-Regular.ttf");
+}
+
+@font-face {
+    font-family: "titillium";
+    src: url("fonts/TitilliumWeb-Regular.ttf");
+}
+
+* {
+    font-family: "poppin";
+    list-style: none;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: rgb(63, 78, 92);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(24, 33, 42);
+    border-radius: 5px;
+    transition-duration: .4s;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    transition-duration: .4s;
+    background-color: rgb(126, 41, 210);
+}
+
+.logo {
+    width: 70px;
+    height: 70px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url("resources/images/logo.png");
+}
+
+.li:hover {
+    background-color: black;
+    color: white;
+    transition-duration: 0.5s;
+    cursor: pointer;
+    padding-left: -50px;
+}
+
+.des {
+    font-size: 70px;
+    color: white;
+    z-index: 10;
+    margin-top: 10%;
+    margin-left: 24%;
+}
+
+.slide2 {
+    z-index: 2;
+    opacity: 30%;
+}
+
+.button {
+    font-size: 35px;
+    border-radius: 50px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: greenyellow;
+    background-color: transparent;
+    color: skyblue;
+    margin-top: 30%;
+    margin-left: 36%;
+    transition-duration: 0.3s;
+    z-index: 5;
+}
+
+.button:hover {
+    border-color: rgb(22, 84, 241);
+    background-color: black;
+    color: rgb(49, 255, 8);
+    cursor: pointer;
+    transition-duration: 0.3s;
+}
+
+.z {
+    z-index: 15;
+}
+
+.ex {
+    font-size: 35px;
+}
+
+.service {
+    font-size: 31px;
+}
+
+.service2 {
+    font-size: 25px;
+}
+
+.i {
+    height: 800px;
+}
+
+.c {
+    z-index: 15;
+    margin-top: 3%;
+}
+
+.d {
+    margin-left: 0.5%;
+    margin-bottom: 3%;
+}
+
+.pagination>li>a {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+.h {
+    height: 350px;
+}
+
+.main-body {
+    background-image: url("resources/u.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.admin-body {
+    background-image: url("resources/adminlogin.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.main-body2 {
+    overflow-x: hidden;
+}
+
+.a {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.267);
+}
+
+.b {
+    width: 100%;
+    height: 90vh;
+    background-color: rgba(0, 0, 0, 0.718);
+    margin-top: 5%;
+}
+
+.b2 {
+    width: 80%;
+    height: 67vh;
+    background-color: rgba(0, 0, 0, 0.718);
+    margin-top: 15%;
+    margin-left: 7%;
+}
+
+.c {
+    font-family: "titillium";
+    margin-bottom: 5%;
+}
+
+.emptyCart {
+    height: 370px;
+    background-image: url("resources/emptycart3.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.x {
+    overflow-x: hidden;
+}
+
+.pimg {
+    background-image: url("resources/pimg.png");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.invoiceHeaderImage {
+    height: 120px;
+    background-image: url("resources/images/logo.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+/* .l{
+    color: chartreuse;
+} */
+
+
+/* none */
+
+@media (max-width:576px) {
+    .des {
+        font-size: 30px;
+        color: white;
+        z-index: 10;
+        margin-top: 8%;
+        margin-left: 13%;
+    }
+    .ex {
+        font-size: 15px;
+    }
+    .button {
+        font-size: 15px;
+        margin-top: 34%;
+        margin-left: 30%;
+        background-color: rgba(0, 0, 0, 0.188);
+        border-color: greenyellow;
+    }
+    .service {
+        font-size: 23px;
+    }
+    .service2 {
+        font-size: 18px;
+    }
+    .i {
+        height: 300px;
+    }
+    .b2 {
+        width: 100%;
+        height: 70vh;
+        background-color: rgba(0, 0, 0, 0.718);
+        margin-top: 20%;
+        margin-left: 0%;
+    }
+    .b {
+        width: 100%;
+        height: 90vh;
+        background-color: rgba(0, 0, 0, 0.718);
+        margin-top: 5%;
+        margin-left: 0%;
+    }
+    .cartCard {
+        margin-left: 20px;
+    }
+}
+
+
+/* small */
+
+@media (min-width:576px) {
+    .des {
+        font-size: 35px;
+        color: white;
+        z-index: 10;
+        margin-top: 8%;
+        margin-left: 18%;
+    }
+    .ex {
+        font-size: 19px;
+    }
+    .button {
+        font-size: 19px;
+        margin-top: 34%;
+        margin-left: 30%;
+        background-color: rgba(0, 0, 0, 0.188);
+        border-color: greenyellow;
+    }
+    .service {
+        font-size: 23px;
+    }
+    .service2 {
+        font-size: 18px;
+    }
+    .i {
+        height: 300px;
+    }
+    .d {
+        overflow-x: scroll;
+    }
+    .b2 {
+        /* width: 100%; */
+        height: 70vh;
+        background-color: rgba(0, 0, 0, 0.718);
+        margin-top: 20%;
+        margin-left: 8%;
+    }
+    .b {
+        width: 100%;
+        height: 90vh;
+        background-color: rgba(0, 0, 0, 0.718);
+        margin-top: 5%;
+        margin-left: 0%;
+    }
+    .cartCard {
+        margin-left: 80px;
+    }
+    .cartCard {
+        margin-left: 0px;
+    }
+    .sumCard {
+        margin-left: 20px;
+        border-left: none;
+    }
+}
+
+
+/* medium */
+
+@media (min-width:768px) {
+    .des {
+        font-size: 42px;
+        color: white;
+        z-index: 10;
+        margin-top: 9%;
+        margin-left: 17%;
+    }
+    .ex {
+        font-size: 20px;
+    }
+    .button {
+        font-size: 20px;
+        margin-top: 34%;
+        margin-left: 31%;
+        background-color: rgba(0, 0, 0, 0.188);
+        border-color: greenyellow;
+    }
+    .i {
+        height: 420px;
+    }
+    .d {
+        overflow-x: scroll;
+    }
+    .b2 {
+        /* width: 100%; */
+        height: 70vh;
+        background-color: rgba(0, 0, 0, 0.718);
+        margin-top: 16%;
+        margin-left: 10%;
+    }
+    .cartCard {
+        margin-left: 85px;
+    }
+    .sumCard {
+        margin-left: 130px;
+        border-left: none;
+    }
+}
+
+
+/* large */
+
+@media (min-width:992px) {
+    .des {
+        font-size: 53px;
+        color: white;
+        z-index: 10;
+        margin-top: 10%;
+        margin-left: 22%;
+    }
+    .ex {
+        font-size: 28px;
+    }
+    .button {
+        font-size: 30px;
+        border-radius: 50px;
+        border-width: 5px;
+        border-style: solid;
+        border-color: greenyellow;
+        background-color: transparent;
+        color: skyblue;
+        margin-top: 34%;
+        margin-left: 36%;
+        transition-duration: 0.3s;
+        z-index: 5;
+    }
+    .i {
+        height: 550px;
+    }
+    .d {
+        overflow-x: scroll;
+    }
+    .b2 {
+        /* width: 100%; */
+        height: 70vh;
+        background-color: rgba(0, 0, 0, 0.718);
+        margin-top: 14%;
+        margin-left: 10%;
+    }
+    .sumCard {
+        margin-left: 120px;
+        border-left: none;
+    }
+    .cartCard {
+        margin-left: 120px;
+    }
+}
+
+
+/* xl */
+
+@media (min-width:1200px) {
+    .des {
+        font-size: 70px;
+        color: white;
+        z-index: 10;
+        margin-top: 10%;
+        margin-left: 22%;
+    }
+    .ex {
+        font-size: 28px;
+    }
+    .button {
+        font-size: 30px;
+        border-radius: 50px;
+        border-width: 5px;
+        border-style: solid;
+        border-color: greenyellow;
+        background-color: transparent;
+        color: skyblue;
+        margin-top: 34%;
+        margin-left: 36%;
+        transition-duration: 0.3s;
+        z-index: 5;
+    }
+    .service {
+        font-size: 31px;
+    }
+    .service2 {
+        font-size: 27px;
+    }
+    .i {
+        height: 800px;
+    }
+    .d {
+        overflow-x: hidden;
+    }
+    .sumCard {
+        margin-left: 0px;
+        border-left: 1px solid white;
+    }
+    .cartCard {
+        margin-left: 10px;
+    }
+}
+
+
+/* xxl */
+
+@media (min-width:1400px) {
+    .cartCard {
+        margin-left: 20px;
+    }
+    .sumCard {
+        margin-left: -50px;
+        border-left: 1px solid white;
+    }
+}
